@@ -353,9 +353,9 @@ footer .copyright{
     .hero{
         padding-top:10rem;
     }
-    header{
+    /* header{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 89%, 0 100%);
-    }
+    } */
     section.about .about-me-img{
         height: 360px;
     }
@@ -365,9 +365,9 @@ footer .copyright{
     .hero{
         flex-direction: column;
     }
-    header{
+    /* header{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
-    }
+    } */
     .hero .right{
         position: absolute;
         top:260px;
