@@ -18,9 +18,15 @@
     
 
     function contact() {
-      // alert("Your contact details are:");
       alert("Name: " + contactDetails.name);
       alert("Email: " + contactDetails.email);
       alert("Phone: " + contactDetails.phone);
     }
+
+    document.getElementById("resumeButton").addEventListener("click", function() {
+      // Replace 'path/to/your/resume.docx' with the actual path to your Word document
+      var resumeUrl = './files/sf.resume.pdf';
     
+      // Open the resume in a new tab or window
+      window.open(resumeUrl, '_blank');
+    });

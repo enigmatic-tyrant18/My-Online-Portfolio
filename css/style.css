@@ -43,6 +43,8 @@ header nav .left a{
     -ms-transition:all .3s ease;
     -o-transition:all .3s ease;
 }
+
+
 header nav .left a:hover{
     color:var(--primary);
 }
