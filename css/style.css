@@ -66,7 +66,7 @@ header nav .branding{
 .hero .right h6{
     margin-top: 2rem;
     font-size:1.6rem;
-    color: blueviolet;
+    color: var(--primary);
     margin-bottom:0.5rem;
 }
 .hero .right h1{
@@ -345,21 +345,18 @@ footer .copyright{
         display: block;
     }
     .hero .left img{
-        width:260px;
+        display:none;
     }
     .hero .right h1{
         font-size: 3rem;
     }
     .hero{
-        padding-top:10rem;
+        padding-top:30rem;
     }
     /* header{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 89%, 0 100%);
     } */
-    section.about .about-me-img{
-        height: 360px;
     }
-}
 
 @media (max-width:576px){
     .hero{
