@@ -21,39 +21,16 @@ html{
     box-sizing: border-box;
     -webkit-font-smoothing:antialiased;
 }
+
 header{
     background: var(--dark);
-    clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    /* clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%); */
 }
 .container{
     max-width:1152px;
     padding:0 15px;
     margin:0 auto;
 }
-
-@media (min-width: 576px) {
-    .container {
-      max-width: 540px;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1152px;
-    }
-  }
 
 header nav .left a{
     color:var(--pure);
@@ -79,14 +56,15 @@ header nav .branding{
     padding:3rem 0;
 }
 .hero .left img{
-    width:400px;
+    width: 200px;
 }
 .hero .right{
     color:var(--pure);
 }
 .hero .right h6{
+    margin-top: 2rem;
     font-size:1.6rem;
-    color:var(--primary);
+    color: blueviolet;
     margin-bottom:0.5rem;
 }
 .hero .right h1{
@@ -270,7 +248,7 @@ section.contact .card-wrapper .card h6{
 
 
 footer{
-    background: var(--ternary);
+    background: skyblue;
     text-align: center;
     padding:5rem 0;
 }
@@ -283,13 +261,14 @@ footer .footer-socials{
     margin-right:-1rem;
 }
 footer .copyright{
-    color: var(--pure);
+    color: black;
 }
 
 
 .site-main-wrapper{
     position:relative;
 }
+
 .hamberger{
     position:absolute;
     top:40px;
@@ -345,6 +324,7 @@ footer .copyright{
 .times img{
     width:30px;
 }
+
 
 .mobile-nav ul{
     list-style-type: none;
@@ -412,10 +392,6 @@ footer .copyright{
     }
     section.roadmap .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    section.dsa h1{
-        line-height: 1.2rem;
     }
 
     section.contact .card-wrapper{
